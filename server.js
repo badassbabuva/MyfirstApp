@@ -22,6 +22,12 @@ app.get('/',(req,res)=>{
 	});
 
 });
+app.get('/contact',(req,res)=>{
+
+	res.render('contact.hbs');
+
+});
+
 
 app.get('/about',(req,res)=>{
 
